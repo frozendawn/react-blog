@@ -1,0 +1,59 @@
+.Blog {
+    display: flex;
+    flex-direction: column;
+    height: 427px;
+    width: 640px;
+
+    margin-top: 150px;
+
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.img-container {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+
+}
+
+.title-container {
+
+}
+
+.title-container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.description-container {
+
+}
+
+.description-container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.actions button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+}
